@@ -23,6 +23,11 @@
 
 当某一方棋子被吃光或主动发出认输请求或双方同意和棋时，游戏结束，程序自动终止。
 
+### 项目未来计划：
++ 增加长捉判负、相同局面反复出现自动判和等功能；
++ 利用期望极小化极大算法设计AI实现人机对战；
++ 实现AI辅助对战（即程序本身不存储棋盘信息，棋盘信息根据外部实际对战局面输入，AI根据局面做出合理决策）
+
 ---
 ---
 This game is a special version of Chinese Chess. Major rules are as follows:
@@ -40,10 +45,15 @@ Run `python Chinese_Chess_Flipping.py` command under the project directory, and 
 
 The followings are allowed in each turn:
 1. Making a flip: A two-digit number is required for input. The first digit indicates which row the piece is in, and the second indicates which column the piece is in. The piece must have reverse side facing up.
-2. Making a move (killing a piece): Two two-digit numbers are required for input. The two digits of the first number indicate the row and the column of the piece to move. The piece must have front side facing up and belong to the player making the move. The two digits of the second number indicate the row and the column of the target of the piece. Such move (killing) must conform to the rules. If there is no input for the second number, then the player can reselect the piece to move.
+2. Making a move (killing an enemy piece): Two two-digit numbers are required for input. The two digits of the first number indicate the row and the column of the piece to move. The piece must have front side facing up and belong to the player making the move. The two digits of the second number indicate the row and the column of the target of the piece. Such move (killing) must conform to the rules. If there is no input for the second number, then the player can reselect the piece to move.
 3. Making a surrender request: Input `RS` (only allowed after 10 turns), and input `Y` to confirm; otherwise the game continues.
 4. Making a draw request: Input `TH`. Then, the opponent inputs `Y` to agree; otherwise, the draw request is rejected and the game continues.
 
-Each time after making a flip or move (killing), the chessboard will be refreshed on the console. An empty space indicates there is no piece at that grid. A 〇 indicates the piece at that grid has reverse side facing up.
+Each time after making a flip or move (killing), the chessboard will be refreshed on the console. An empty space indicates there is no piece at that grid. A "〇" indicates the piece at that grid has reverse side facing up.
 
 When a player has all pieces killed or makes a surrender request, or two players both agree to draw, the game is over and the program terminates automatically.
+
+### Future Plans of This Project:
++ More features available: auto losing judgement if one continuously chases an enemy piece; auto draw judgement if same states appear repeatedly...
++ Using __Expected-Minimax Algorithm__ to design an AI for human-machine competition.
++ AI assisted game, i.e. the program itself does not store information about the chessboard, which instead is inputted according to the real game outside, and the AI makes reasonable decisons for the outside game.
