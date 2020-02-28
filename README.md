@@ -1,6 +1,6 @@
 # 中国象棋翻棋 Chinese Chess Flipping
 
-[中文描述](https://github.com/Zhiyu-Lei/Chinese_Chess_Flipping#中文) | [English Description](https://github.com/Zhiyu-Lei/Chinese_Chess_Flipping#English)
+[中文描述](https://github.com/GaoDeBuChou/Chinese_Chess_Flipping#中文) | [English Description](https://github.com/GaoDeBuChou/Chinese_Chess_Flipping#English)
 
 ## 中文
 本游戏为中国象棋的一种特殊玩法，主要规则如下：
