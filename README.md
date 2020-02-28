@@ -1,5 +1,8 @@
 # 中国象棋翻棋 Chinese Chess Flipping
 
+[中文描述](README.md#中文) | [English Description](README.md#English)
+
+## 中文
 本游戏为中国象棋的一种特殊玩法，主要规则如下：
 1. 象棋棋子反转分布在4×8的棋盘空格上，双方轮流翻棋或走棋，先行者翻出第一个棋子后，则确定该玩家持此种颜色棋子；
 2. 走棋每步走一格，上下左右都可以；
@@ -30,6 +33,7 @@
 
 ---
 ---
+## English
 This game is a special version of Chinese Chess. Major rules are as follows:
 1. All pieces are placed on a 4 by 8 chessboard, with reverse sides facing up. Two players make flips or moves in turn. After the first player makes the first flip, that player will play the color of the piece flipped.
 2. One grid is allowed in each move, with any directions of up, down, left, or right.

@@ -1,0 +1,17 @@
+﻿游戏规则：
+1、象棋棋子反转分布在4×8的棋盘空格上，双方轮流翻棋或走棋，先行者翻出第一个棋子后，则确定该玩家持此种颜色棋子；
+2、走棋每步走一格，上下左右都可以；
+3、大小比较：帥(將) > 仕(士) > 相(象) > 俥(車) > 傌(馬) > 砲(包) > 兵(卒)，大子可以吃小子，同级可以互吃；
+4、帥(將)不能吃卒(兵)，反而被卒(兵)吃；
+5、砲(包)吃子时不受大小限制且横向或竖向走棋不受距离限制，但中间必须隔有且仅有一个棋子；
+6、棋子被吃光则判负，也可主动发出认输请求（十步以内无法认输），发出提和请求且对方同意则和棋；
+7、了解游戏规则后，按回车键开始游戏！
+
+Game Rules:
+1. All pieces are placed on a 4 by 8 chessboard, with reverse sides facing up. Two players make flips or moves in turn. After the first player makes the first flip, that player will play the color of the piece flipped.
+2. One grid is allowed in each move, with any directions of up, down, left, or right.
+3. Level ranking of the pieces: 帥(將) (General) > 仕(士) (Mandarin) > 相(象) (Bishop) > 俥(車) (Rook) > 傌(馬) (Knight) > 砲(包) (Cannon) > 兵(卒) (Pawn), where 帥, 仕, 相, 俥, 傌, 砲, 兵 are for red, while 將, 士, 象, 車, 馬, 包, 卒 are for black. Pieces with higher levels can kill pieces with lower levels. Pieces with the same levels can kill each other (depending on whose turn).
+4. Generals cannot kill Pawns, but will be killed by Pawns instead.
+5. When Cannons kill other pieces, there are no level-ranking restrictions nor distance restrictions in horizontal or vertical directions, but there must be only one piece between Cannon and its target.
+6. One loses if all the pieces are killed. Surrender is allowed after 10 turns. A draw is reached if one makes a draw request and the other agrees.
+7. After getting familiar with the rules, press Enter key to start the game!
